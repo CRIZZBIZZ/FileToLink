@@ -17,8 +17,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     rm = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("✨ Update Channel", url="https://t.me/vj_botz")
-        ]] 
+            InlineKeyboardButton("Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+        ],[
+            InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/moviesbizz_yt"),
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/moviesbizzchat1")
+        ]]
     )
     await client.send_message(
         chat_id=message.from_user.id,
