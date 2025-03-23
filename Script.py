@@ -4,18 +4,22 @@
 
 
 class script(object):
-    START_TXT = """<b>Hello {} 👋, My Name Is <a href=https://t.me/{}>{}</a>
+    START_TXT = """<b>Hello {} 👋,
     
-✏️ I Am A Advance File Stream Bot With Multiple Player Support And Url Shortner. Best Ui Performance.
+    <quote>ɪᴀᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴍᴇᴅɪᴀ ᴛᴏ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ</quote>
 
-Now Send Me A Media To See Magic ✨</b>"""
+● sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴍᴇᴅɪᴀ/ᴅᴏᴄᴜᴍᴇɴᴛs/ᴠɪᴅᴇᴏ ᴇᴛᴄ.. ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ
+● ᴍʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʟɪɴᴋ ᴡɪʟʟ sᴜᴘᴘᴏʀᴛ ʏᴏᴜʀ ʙʀᴏᴡsᴇʀ (ɢᴏᴏɢʟᴇ ᴄʜʀᴏᴍᴇ, ʙʀᴀᴠᴇ, ᴏᴘᴇʀᴀ, sᴀғᴀʀɪ)
+● ɪ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʜɪɢʜ sᴘᴇᴇᴅ ᴍᴇᴅɪᴀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ
+● ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴅɪʀᴇᴄᴛ sᴛʀᴇᴀᴍ (ᴡᴀᴛᴄʜɪɴɢ ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ ᴅᴏᴡɴʟᴏᴀᴅ) ʟɪɴᴋ</b>"""
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
-Nᴀᴍᴇ - {}"""
+Nᴀᴍᴇ - {}
+Dɪʀᴇᴄᴛ Lɪɴᴋ Bᴏᴛ"""
     
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>Dɪʀᴇᴄᴛ Lɪɴᴋ Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
